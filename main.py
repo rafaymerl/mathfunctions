@@ -2,6 +2,7 @@ from addition import addition
 from subtraction import subtraction
 from multiply import multiply
 from divide import divide
+from exponent import exp
 
 if __name__=="__main__":
     a=6
@@ -11,3 +12,4 @@ if __name__=="__main__":
     print (divide (a,b))
     print (multiply (a,b))
     print (subtraction (a,b))
+    print (exp (a,b))
